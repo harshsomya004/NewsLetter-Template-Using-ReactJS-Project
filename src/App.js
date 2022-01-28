@@ -201,7 +201,7 @@ export default function App() {
           align-items: center;
         `}
       >
-        <img alt="img" src="/asd.svg" />
+      <a href="https://play.google.com/store"> <img alt="img" src="/asd.svg" /></a>
       </div>
       <div className="Endcontent">
         {" "}
