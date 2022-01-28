@@ -8,11 +8,11 @@ export default function App() {
     <div
       className={css`
         width: calc(100vw- 42px);
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: ${isMobile ? "21px": "64px"};
+        margin-right: ${isMobile ? "21px": "64px"};
         background-color: white;
         /* height: 100vh; */
-        margin-top: ${isMobile ? "6px": "12px"};
+        margin-top: ${isMobile ? "16px": "32px"};
         display: flex;
         flex-direction: column;
         gap: 1ch;
