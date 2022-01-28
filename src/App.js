@@ -16,7 +16,7 @@ export default function App() {
         display: flex;
         flex-direction: column;
         gap: 1ch;
-        padding: 24px 18px;
+        padding: ${isMobile ? "16px": "18px 24px"};
         border: 8px;
         p {
           font-size: 12px;
