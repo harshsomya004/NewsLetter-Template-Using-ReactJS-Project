@@ -138,8 +138,8 @@ export default function App() {
               <div className="post">
                 <div className="date">
                   <div
-                    className={css`
-                      font-size: 10.0281px;
+                     className={css`
+                      font-size: ${isMobile ? "12px" : "10.0281px"};
                       line-height: 12px;
                     `}
                   >
@@ -147,10 +147,10 @@ export default function App() {
                   </div>
                   <div
                     className={css`
-                      font-size: 18px;
-                      line-height: 18px;
+                      font-size: ${isMobile ? "12px" : "18px"};
+                      line-height: ${isMobile ? "12px" : "18px"};
                     `}
-                  >
+                    >
                     04
                   </div>
                 </div>
