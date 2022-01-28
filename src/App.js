@@ -12,7 +12,7 @@ export default function App() {
         margin-right: auto;
         background-color: white;
         /* height: 100vh; */
-        margin-top: 4ch;
+        margin-top: ${isMobile ? "6px": "12px"};
         display: flex;
         flex-direction: column;
         gap: 1ch;
@@ -65,7 +65,7 @@ export default function App() {
         }
         .date {
           display: flex;
-          flex-direction: ${isMobile ? "row" : "column"};
+          flex-direction: ${isMobile ? "column" : "column"};
         }
         .content {
           font-size: 10px;
